@@ -1,0 +1,60 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    padding: 5px 0;
+}
+.time{
+background-color: blue;
+}
+.sana-oy-yil{
+    background-color: cadetblue;
+}
+
+
+
+.time , .sana-oy-yil{
+    display: flex;
+    width: 590px;
+    height: 200px;
+    margin: 0 auto;
+   
+    font-family: sans-serif;
+}
+
+.hours{
+    font-size: 120px;
+}
+
+.minutes{
+    font-size: 120px;
+}
+
+.seconds {
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+}
+
+.ora{
+    font-size: 120px;
+}
+
+.sana-oy-yil div{
+    font-size: 100px;
+    margin:  auto;
+}
+
+
+.time div{
+    margin:  auto;
+   
+}
